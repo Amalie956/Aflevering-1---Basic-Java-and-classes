@@ -17,8 +17,8 @@ public class ClassesAndObjectsExercises {
 
     //Opretter employee objekt
     public static void employeeExercise() {
-        Employee employee1 = new Employee("Hanne", "Hansen", 25000);
-        Employee employee2 = new Employee("Jens", "Larsen", 30000);
+        Employee employee1 = new Employee("Hanne", "Hansen", -25000); //argumenter
+        Employee employee2 = new Employee("Jens", "Larsen", 30000); //argumenter
         //employees uden 10% raise
         System.out.println("Employee’s yearly salary without raise:");
         System.out.println(employee1.firstName + " " + employee1.lastName + " yearly salary is " + employee1.displayYearlySalary() + " kr.");

@@ -2,12 +2,12 @@ package ClassesAndObjects;
 
 //Create a class called Employee that includes three pieces of information as instance variables
 public class Employee {
-    public String firstName;
-    public String lastName;
-    private float monthlySalary;
+    public String firstName; //attribute
+    public String lastName; //attribute
+    private float monthlySalary; //attribute
 
     //Your class should have a constructor that initializes the three instance variables
-    public Employee(String firstName, String lastName, float monthlySalary) {
+    public Employee(String firstName, String lastName, float monthlySalary) { //parametre
         this.firstName = firstName;
         this.lastName = lastName;
         this.monthlySalary = monthlySalary;
