@@ -9,13 +9,13 @@ public class ClassesAndObjectsExercises {
         car.move();
     }
 
-    //Opretter car objekt
+    //Opretter driver objekt
     public static void driverExercise() {
         Driver driver = new Driver();
         driver.drive();
     }
 
-    //Opretter employee objekt
+    //Opretter to employee objekter
     public static void employeeExercise() {
         Employee employee1 = new Employee("Hanne", "Hansen", -25000); //argumenter
         Employee employee2 = new Employee("Jens", "Larsen", 30000); //argumenter
