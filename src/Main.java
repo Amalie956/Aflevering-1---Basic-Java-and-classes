@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner chooseMethods = new Scanner(System.in);
-        System.out.println("Indtast den metode opgave nr. du vil se");
+        System.out.println("Indtast det opgave nr. du vil se");
         int input = chooseMethods.nextInt();
 
         //Vælg metode opgave nr. du gerne vil se (emne "methods")
