@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Indtast det opgave nr. du vil se");
         int input = chooseMethods.nextInt();
 
-        //Vælg metode opgave nr. du gerne vil se (emne "methods")
+        //Vælg opgave nr. du gerne vil se
         if (input == 1) { //A person is elligible to vote if his/her age is greater than or equal to 18
             System.out.println("Du valgte opgave: metode 1");
             MethodsExercises.method1();
